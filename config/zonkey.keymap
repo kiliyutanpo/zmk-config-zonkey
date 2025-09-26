@@ -233,10 +233,10 @@
             // | CTRL| WIN | ALT |HENKAN|SPACE|MUHENKAN|         | BS | ENT |                   | DEL |
 
             bindings = <
-&trans          &trans        &trans        &trans                &trans                                       &mo6           &kp HOME  &kp UP    &kp END    &mo0
-&trans          &trans        &kp C_VOL_DN  &kp C_VOLUME_UP       &kp K_MUTE    &trans                &kp DEL  &kp PAGE_UP    &kp LEFT  &kp DOWN  &kp RIGHT  &trans
-&kp LEFT_SHIFT  &trans        &trans        &kp C_BRIGHTNESS_DEC  &kp C_BRI_UP  &trans                &trans   &kp PAGE_DOWN  &trans    &trans    &trans     &trans
-&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN      &lt 2 SPACE   &lt 1 INT_MUHENKAN             &trans         &trans                                 &trans
+&trans          &trans        &trans        &trans                &trans                                       &mo6           &kp HOME  &kp UP      &kp END     &mo0
+&trans          &trans        &kp C_VOL_DN  &kp C_VOLUME_UP       &kp K_MUTE    &trans                &kp DEL  &kp PAGE_UP    &kp LEFT  &kp DOWN    &kp RIGHT   &trans
+&kp LEFT_SHIFT  &trans        &trans        &kp C_BRIGHTNESS_DEC  &kp C_BRI_UP  &trans                &trans   &kp PAGE_DOWN  &trans    &kp K_PREV  &kp K_NEXT  &trans
+&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN      &lt 2 SPACE   &lt 1 INT_MUHENKAN             &trans         &trans                                    &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
