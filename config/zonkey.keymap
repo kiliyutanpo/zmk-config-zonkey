@@ -51,7 +51,7 @@
 
         gmail {
             bindings = <&gmai>;
-            key-positions = <30 31>;
+            key-positions = <30 29>;
         };
     };
 
